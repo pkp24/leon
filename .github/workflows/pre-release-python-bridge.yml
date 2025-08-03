@@ -17,7 +17,7 @@ jobs:
         # Use macos-12 instead of macos-latest because the latter use ARM64 (M1) architecture
         #os: [ubuntu-20.04, macos-12]
         # Temporarily disable Windows release
-        os: [ubuntu-20.04, macos-12, windows-latest]
+        os: [windows-latest]
 
     runs-on: ${{ matrix.os }}
 

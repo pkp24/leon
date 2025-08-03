@@ -55,7 +55,7 @@ jobs:
         run: npm run build:tcp-server
 
       - name: Upload TCP server
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: tcp_server/dist/*.zip
 
